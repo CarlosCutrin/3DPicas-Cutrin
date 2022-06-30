@@ -5,7 +5,7 @@
                         /* index */    
 }
 .fondo  {
-    background-color: black;
+    background-color: #3f51b5;
 }
 
 .header {
@@ -108,8 +108,11 @@ li a:hover {
 
 .imagenes {
     margin: 20px;
+}    
+.fondotitulo {
+    background-color:white ;
+    padding-bottom: 20px;        
 }
-
 .footer {
     font-family:sans-serif ;   
     background-color: rgb(36, 111, 161) ;  
@@ -154,11 +157,13 @@ li a:hover {
 
                         /* Information */
 .fondoPla {
-    padding: 30px 0 15px 30px;
+    padding: 100px 0 15px 30px;
     background-color: cadetblue;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: -120px;
+
     
 }
 
