@@ -1,0 +1,212 @@
+* {
+    margin: 0;    
+    padding: 0;
+
+                        /* index */    
+}
+.fondo  {
+    background-color: black;
+}
+
+.header {
+    background-image: url(../Image/Portada1.jpg);
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Galdeano', sans-serif;
+
+}
+
+.logo1 {
+    padding-left: 80px;
+    opacity: 0.8; 
+    display: flex;
+    align-items: center;
+
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    
+
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+
+
+}
+
+li a {
+    color: black;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0 10px 0 10px;    
+    border: 3px solid black;  
+    border-left-width: 8px;   
+    transition: all .4s; 
+
+}
+li a:hover {
+    background-color: rgb(36, 111, 161);
+    padding: 10px 20px;
+    font-size: 28px;
+    color: white;
+    box-shadow: 10px 10px 4px 4px rgb(41, 38, 38);
+}
+
+.section1 {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+}
+
+.principal {
+    font-size: 30px;   
+    font-family: 'Rampart One', cursive; 
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-underline-offset: 5.5px;
+}
+
+.gris {
+   color: gray;
+}
+
+.centrocolor    {
+    background-color: white;
+}    
+ 
+.centro {
+    font-family: 'Galdeano', sans-serif;
+    text-align: center;    
+    width: 100%;
+    height: 400px;
+    display: flex;      
+    align-items: center;    
+    justify-content: center;   
+}
+
+.imagenes {
+    margin: 20px;
+}
+
+.footer {
+    font-family:sans-serif ;   
+    background-color: rgb(36, 111, 161) ;  
+    padding: 10px;
+    opacity: 0.7;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 20px 20px 20px ;
+}
+
+.instagram {
+    color: yellow;    
+}  
+
+                        /* Productos */
+.principal1 {
+    color: black;
+    font-family: 'Galdeano', sans-serif;  
+
+}
+.titulo1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.mover {
+    display: inline-block;
+    border-style: outset;
+    right: 100px;
+}
+
+.separacion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+
+}
+
+                        /* Information */
+.fondoPla {
+    padding: 30px 0 15px 30px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.fondoAbs {
+    padding: 30px 0 15px 30px;
+    background-color: #ffd700;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+table {
+    border-color: black;
+    background-color: rgb(182, 182, 182);
+    margin-top: 10px;
+    margin-right: 20px ;
+}
+
+table tr th {
+    background-color: gray;
+}
+
+
+                        /* Contact */
+.fieldset {
+    background-color: #ffd700;
+    margin: 0px 500px 0px 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form {
+    padding-bottom: 30px;
+}
+                        /* Location */
+.mapa {
+    margin: 30px 0 30px 150px;
+}
+.parrafo5 {
+    margin-left: 100px;
+}
+.recuadro5 {
+    padding-bottom: 40px;
+    background-color: #ffd700;
+    padding-top: 20px
+    
+}
+
+
+width="250" height="161"

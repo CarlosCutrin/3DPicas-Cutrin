@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galdeano&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Image/LogoConFondo.jpg">   
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo1">
+                <img src="./Logocarlos1.png" alt="Log" width="250" height="161">            
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="./Index.html">HOME</a></li>
+                    <li><a href="./Products.html">PRODUCTS</a></li>
+                    <li><a href="./Infomation.html">INFORMATION</a></li>
+                    <li><a href="./Contacto.html">CONTACT</a></li>
+                    <li><a href="./Location.html">LOCATION</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>   
+    <section class="section1">
+        <h1 class="titulo1 principal">Contacto</h1>
+        <form action="" method="get">
+            <fieldset class="fieldset">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <br>
+                <div>
+                    <label for="empresa">Empresa</label>
+                    <input type="text" id="empresa" placeholder="Ingrese su empresa">
+                </div>
+                <br>            
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Ingrese su email" required>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset class="fieldset">
+                <div>
+                    <label for="paises">Elegir el país</label>
+                    <select name="paises" id="paises">
+                        <option value="00">Seleccione una opcion</option>
+                        <option value="01">Argentina</option>
+                        <option value="02">Brasil</option>
+                        <option value="02">Chile</option>
+                        <option value="02">Bolivia</option>
+                        <option value="03">Paraguay</option>
+                        <option value="03">Uruguay</option>
+                    </select>
+                </div>
+                <br>        
+                <div>
+                    <label for="provincia">Elegir la provincia</label>
+                    <input type="text" id="provincia" placeholder="Ingrese la provincia">
+                </div>         
+            </fieldset>        
+            <br>
+            <fieldset class="fieldset">
+                <div>
+                    <label for="caja">Comentarios</label>
+                    <textarea name="caja" id="caja" cols="50" rows="10" required></textarea>
+                </div>
+                <div class="fieldset">         
+                    <input type="radio" name="tilde" id="" required> Presupuesto
+                    <input type="radio" name="tilde" id="" required> Otro
+                </div>
+                <div class="fieldset">       
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar información">
+                </div>
+            </fieldset>     
+        </form>
+    </section>
+    <div>
+        <footer class="footer grid-container"><strong>
+            <p>Copyright 2022</p>
+            <p>Esta es nuestra dirección de contacto 3DPicas@gmail.com</p>
+            <p>Síguenos en <a class="instagram" href="https://www.instagram.com/3dpicas.impresiones/?hl=es">Instagram</a></p>
+        </footer></strong>
+    </div>
+</body>
+</html>
